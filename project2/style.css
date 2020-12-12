@@ -1,0 +1,124 @@
+@import url("https //fonts.googleapis.com/css family=poppins") body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Half height */
+  width: 100%;
+}
+
+/*navbar*/
+.navbar-default {
+  margin: 0 !important;
+}
+
+.navbar {
+  /*height: 70px;*/
+  display: inline-flex;
+  text-align: center;
+  color: #0000 !important;
+}
+
+.nav-link {
+  color: white;
+}
+/*section*/
+hr.new {
+  border: 2px #0000;
+}
+.slant {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.slantdiv {
+  width: 100%;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skewY(5deg);
+  transform-origin: top left;
+  z-index: -1;
+}
+/*section*/
+
+/*footer*/
+
+@media only screen and (max-width:768px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .row {
+    width: 50%;
+    display: none;
+  }
+  .col-sm-6 {
+
+    width: 10em;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1px;
+  }
+}
+@media only screen and (max-width:468px) {
+  .navbar{
+    width: 100%;
+    height: auto;
+    display:flex;
+  }
+  .row {
+    width: 50%;
+    display: none;
+  }
+  .col-sm-6 {
+
+    width: ;
+    height: auto;
+  }
+  /*.card{
+    width: 10rem;
+    
+  }*/
+
+}
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
+sha
